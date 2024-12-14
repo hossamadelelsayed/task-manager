@@ -15,7 +15,7 @@ This project follows **Clean Code Architecture** to ensure a clear separation of
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/hossamadelelsayed/task-manager.git
-   cd task-manager-backend
+   cd task-manager/task-manager-backend
 2. **Install dependencies**:
     ```bash
      composer install
@@ -31,8 +31,10 @@ This project follows **Clean Code Architecture** to ensure a clear separation of
 6. **Run the server**: Start the Laravel development server
     ```bash
      php artisan serv
-API Endpoints
-GET /api/v1/tasks: List all tasks.
+7. **API Endpoints**
+    GET /api/v1/tasks: List all tasks.
+    ```bash
+    http://localhost:8000/api/v1/tasks
 
 ## Frontend (Next.js)
 
@@ -56,7 +58,7 @@ The frontend is built using Next.js and React with clean separation between comp
 ### Setup
 1. **Clone the repository**:
    ```bash
-   cd task-manager-frontend
+   cd task-manager/task-manager-frontend
 2. **Install dependencies**:
     ```bash
      npm install
